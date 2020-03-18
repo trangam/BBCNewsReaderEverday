@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BBCNews_Detail">
+
+    <TextView
+        android:id="@+id/title_bbc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title_bbc" />
+
+    <TextView
+        android:id="@+id/description_bbc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="description" />
+
+    <TextView
+        android:id="@+id/date_bbc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date" />
+
+    <TextView
+        android:id="@+id/link_bbc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="link" />
+
+</LinearLayout>
